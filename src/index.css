@@ -1,0 +1,23 @@
+.city-selector{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.dropdowns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.select{
+    padding: 10px;
+}
+
+.highlight{
+    font-size: larger;
+}
+
+.fade {
+    color : #666;
+}
