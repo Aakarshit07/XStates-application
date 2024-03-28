@@ -93,7 +93,7 @@ function App() {
               </option>)}
             </select>
           </div>
-          {selectedCity && <h2 className='text'>You selected <span className='highlight'>{selectedCountry}</span>, <span className='fade'>{selectedState}, {selectedCity}</span></h2>}
+          {selectedCity && <h2 className='text'>You Selected <span className='highlight'>{selectedCity}</span>, <span className='fade'>{selectedState}, {selectedCountry}</span></h2>}
       </div>
     </>
   )
