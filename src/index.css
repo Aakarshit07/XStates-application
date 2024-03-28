@@ -8,10 +8,16 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 .select{
     padding: 10px;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 18px;
 }
 
 .highlight{
@@ -19,5 +25,5 @@
 }
 
 .fade {
-    color : #666;
+    color : #888;
 }

@@ -75,7 +75,7 @@ function App() {
               className='select'
               disabled={!selectedCountry}
             >
-              <option value="" disabled >Select State</option>
+              <option value="" >Select State</option>
               {states.map((state) => <option key={state} value={state}>
               {state}
               </option>)}
@@ -87,16 +87,21 @@ function App() {
               className='select'
               disabled={!selectedState}
             >
-              <option value="" disabled >Select City</option>
+              <option value="" >Select City</option>
               {cities.map((city) => <option key={city} value={city}>
               {city}
               </option>)}
             </select>
           </div>
-          {selectedCity && <h2 className='text'>You Selected <span className='highlight'>{selectedCity}</span>, <span className='fade'>{selectedState}, {selectedCountry}</span></h2>}
+          {selectedCity && 
+            <h2 className='text'>
+              You Selected <span className='highlight'>{selectedCity}</span>,
+              <span className='fade'>{" "}{selectedState}, {selectedCountry}
+              </span>
+            </h2>}
       </div>
     </>
   )
 }
-
+ 
 export default App
